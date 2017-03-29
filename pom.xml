@@ -8,6 +8,12 @@
   <name>ssm Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+  	<!-- 导入java ee jar 包 修复初始创建maven web项目 jsp html标签报错-->  
+    <dependency>  
+        <groupId>javax</groupId>  
+        <artifactId>javaee-api</artifactId>  
+        <version>7.0</version>  
+    </dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
